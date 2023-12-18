@@ -19,5 +19,6 @@ int main() {
     int random_number = rand();
     printf("Número aleatorio: %d\n", random_number);
 
+
     return 0;
 }
