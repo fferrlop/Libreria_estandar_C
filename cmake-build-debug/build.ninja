@@ -55,8 +55,8 @@ build CMakeFiles/compareStrings.dir/CMakeFiles/main.c.obj: C_COMPILER__compareSt
   OBJECT_DIR = CMakeFiles\compareStrings.dir
   OBJECT_FILE_DIR = CMakeFiles\compareStrings.dir\CMakeFiles
 
-build CMakeFiles/compareStrings.dir/main.c.obj: C_COMPILER__compareStrings_unscanned_Debug E$:/compareStrings/main.c || cmake_object_order_depends_target_compareStrings
-  DEP_FILE = CMakeFiles\compareStrings.dir\main.c.obj.d
+build CMakeFiles/compareStrings.dir/main2.c.obj: C_COMPILER__compareStrings_unscanned_Debug E$:/compareStrings/main2.c || cmake_object_order_depends_target_compareStrings
+  DEP_FILE = CMakeFiles\compareStrings.dir\main2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\compareStrings.dir
   OBJECT_FILE_DIR = CMakeFiles\compareStrings.dir
@@ -69,7 +69,7 @@ build CMakeFiles/compareStrings.dir/main.c.obj: C_COMPILER__compareStrings_unsca
 #############################################
 # Link the executable compareStrings.exe
 
-build compareStrings.exe: C_EXECUTABLE_LINKER__compareStrings_Debug CMakeFiles/compareStrings.dir/CMakeFiles/main.c.obj CMakeFiles/compareStrings.dir/main.c.obj
+build compareStrings.exe: C_EXECUTABLE_LINKER__compareStrings_Debug CMakeFiles/compareStrings.dir/CMakeFiles/main.c.obj CMakeFiles/compareStrings.dir/main2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\compareStrings.dir

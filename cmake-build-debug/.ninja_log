@@ -1,7 +1,8 @@
 # ninja log v5
-3	555	7246149923941249	build.ninja	aa71c7b4d9df8390
-6	160	7246149926410059	CMakeFiles/compareStrings.dir/main.c.obj	b35854ff65c85adc
-1	391	7246149928671288	CMakeFiles/compareStrings.dir/CMakeFiles/main.c.obj	a7efbb06f63e05ab
-391	541	7246149930173164	compareStrings.exe	228c4b37656439a9
+3	555	7246157798324179	build.ninja	aa71c7b4d9df8390
 2	128	7246150722048950	CMakeFiles/compareStrings.dir/main.c.obj	b35854ff65c85adc
+1	391	7246149928671288	CMakeFiles/compareStrings.dir/CMakeFiles/main.c.obj	a7efbb06f63e05ab
 129	307	7246150723776292	compareStrings.exe	228c4b37656439a9
+2	304	7246157798324179	build.ninja	aa71c7b4d9df8390
+0	197	7246157801180909	CMakeFiles/compareStrings.dir/main2.c.obj	af0179476a5d7907
+198	364	7246157802807786	compareStrings.exe	6fcbf791b69f5a77

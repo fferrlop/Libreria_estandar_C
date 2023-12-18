@@ -34,8 +34,30 @@ int main() {
         return 1;
     }
 
-    // Cerrar el archivo al final
     fclose(file);
+
+    FILE *File = fopen("file.txt", "w");
+    if (file == NULL) {
+        printf("El archivo no se pudo abrir para escritura.\n");
+        return 1;
+    }
+
+    fprintf(file, "Hola, mundo!\n");
+
+    file = fopen("file.txt", "r");
+    if (file == NULL) {
+        printf("El archivo no se pudo abrir para lectura.\n");
+        return 1;
+    }
+
+    char buffer[50];
+    fscanf(file, "%s", buffer);
+
+    printf("Leído del archivo: %s\n", buffer);
+
+
+    fclose(File);
+
 
     return 0;
 }
