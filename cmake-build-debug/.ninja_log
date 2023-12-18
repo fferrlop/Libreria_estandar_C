@@ -1,0 +1,7 @@
+# ninja log v5
+3	555	7246149923941249	build.ninja	aa71c7b4d9df8390
+6	160	7246149926410059	CMakeFiles/compareStrings.dir/main.c.obj	b35854ff65c85adc
+1	391	7246149928671288	CMakeFiles/compareStrings.dir/CMakeFiles/main.c.obj	a7efbb06f63e05ab
+391	541	7246149930173164	compareStrings.exe	228c4b37656439a9
+2	128	7246150722048950	CMakeFiles/compareStrings.dir/main.c.obj	b35854ff65c85adc
+129	307	7246150723776292	compareStrings.exe	228c4b37656439a9
