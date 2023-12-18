@@ -3,4 +3,7 @@ project(compareStrings)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(compareStrings main.cpp)
+add_executable(compareStrings
+        cmake-build-debug/CMakeFiles/main.c
+        main.c
+)
